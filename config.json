@@ -1,0 +1,11 @@
+{
+    "token": "BOT TOKEN GOES HERE",
+    "client_id": "CLIENT ID GOES HERE",
+    "prefix": "!",
+    
+    "no_voice_error_message": ":x: | You have to be in a voice channel",
+    "no_perm_for_join_error_message": ":x: | I do not have permissions to join your voice channel",
+    "no_perm_for_play_error_message": ":x: | I do not have permissions to speak",
+    "track_not_found_error": ":x: | Track not found"
+
+}

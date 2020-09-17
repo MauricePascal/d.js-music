@@ -16,7 +16,11 @@ git clone git@github.com:MauricePascal/d.js-music.git
 ```
 
 ## Setup
-Open [config.json](https://github.com/MauricePascal/d.js-music/blob/master/config.json)
+Open [config.json](https://github.com/MauricePascal/d.js-music/blob/master/config.json).
+
+Fill in your bots token and your bots client id.
+
+You can edit the error messages.
 
 ## Execute
 First, you have to install [Node.js/npm](https://nodejs.org)
@@ -26,31 +30,36 @@ Stay in the Command Promt. Type
 $ npm install -g ffmpeg-static
 ```
 
+If you have done this, you can type in your command promt:
+```
+$ node ./index.js
+```
+
 ## Commands/Features
-### play
-Syntax
-```
-$ !play <url>
-```
-Play the requested song
+1.  play
+   Syntax
+   ```
+   $ !play <url>
+   ```
+   Play the requested song
 
-### Stop
-Syntax
-```
-$ !stop
-```
-Stop the music
+2. Stop
+   Syntax
+   ```
+   $ !stop
+   ```
+   Stop the music
 
-### Skip
-Syntax
-```
-$ !skip
-```
-Skip the current song
+3. Skip
+   Syntax
+   ```
+   $ !skip
+   ```
+   Skip the current song
 
-### Invite
-Syntax
-```
-$ !invite
-```
-Give the user your bots invite link
+4. Invite
+   Syntax
+   ```
+   $ !invite
+   ```
+   Give the user your bots invite link

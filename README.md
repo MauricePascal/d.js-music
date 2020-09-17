@@ -23,8 +23,34 @@ First, you have to install [Node.js/npm](https://nodejs.org)
 
 Stay in the Command Promt. Type
 ```node
-$ npm install -g ffmpeg-binaries
+$ npm install -g ffmpeg-static
 ```
 
 ## Commands/Features
-Currently no commands
+### play
+Syntax
+```
+$ !play <url>
+```
+Play the requested song
+
+### Stop
+Syntax
+```
+$ !stop
+```
+Stop the music
+
+### Skip
+Syntax
+```
+$ !skip
+```
+Skip the current song
+
+### Invite
+Syntax
+```
+$ !invite
+```
+Give the user your bots invite link

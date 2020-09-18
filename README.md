@@ -37,6 +37,7 @@ $ node ./index.js
 
 ## Commands/Features
 1.  play
+
    Syntax
    ```
    $ !play <url>
@@ -44,6 +45,7 @@ $ node ./index.js
    Play the requested song
 
 2. Stop
+
    Syntax
    ```
    $ !stop
@@ -51,6 +53,7 @@ $ node ./index.js
    Stop the music
 
 3. Skip
+
    Syntax
    ```
    $ !skip
@@ -58,6 +61,7 @@ $ node ./index.js
    Skip the current song
 
 4. Invite
+
    Syntax
    ```
    $ !invite
